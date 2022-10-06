@@ -6,8 +6,8 @@
 
 <button
   class:bg-gray-200={!color}
-  class:bg-green-200={green}
-  class:bg-red-200={red}
+  class:bg-green-200={color == "green"}
+  class:bg-red-200={color == "red"}
 >
   <slot />
 
